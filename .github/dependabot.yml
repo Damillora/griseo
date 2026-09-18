@@ -1,0 +1,10 @@
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "20:00"
